@@ -16,13 +16,18 @@ body {
 .link1 {
   position: relative;
   top: 45px;
-  left: 600px;
+  left: 595px;
 }
 
 .link2 {
   position: relative;
   top: 45px;
-  left: 705px;
+  left: 700px;
+}
+
+.Center {
+  float: none;
+  margin: 0 auto;
 }
 
 input {
