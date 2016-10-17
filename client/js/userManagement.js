@@ -29,7 +29,11 @@ Template.userManagement.events({
     };
 
     Accounts.createUser(user, function (error) {
-      if(error) alert(error);
+      if(error) {
+        alert(error);
+      } else {
+        $("div").removeClass("Center");
+      };
     });
   },
 
@@ -38,12 +42,17 @@ Template.userManagement.events({
     var password = $('#login-password').val();
 
     Meteor.loginWithPassword(username, password, function(error) {
-      if(error) alert(error);
+      if(error) {
+        alert(error)
+      } else {
+        $("div").removeClass("Center");
+      };
     });
   },
 
   'click #logout': function() {
     Meteor.logout();
+    $("div").addClass("Center");
   }
 });
 
