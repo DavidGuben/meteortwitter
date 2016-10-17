@@ -2,6 +2,10 @@ body {
   background-color:#fe7055;
 }
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
+.grow:active { transform: scale(1.0) }
+
 .logo {
   position: relative;
   left: 750px;
@@ -28,6 +32,11 @@ body {
 .Center {
   float: none;
   margin: 0 auto;
+}
+
+.button {
+  right: 100%;
+  margin-bottom: 20px;
 }
 
 input {
