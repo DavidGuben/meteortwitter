@@ -2,9 +2,20 @@ body     { background-color:#fe7055; font-family: 'Raleway'; background-image: u
 input    { margin-bottom: 10px; }
 textarea { margin-bottom: 10px; }
 
-.grow        { transition: all .2s ease-in-out; }
+.grow        { transition: all .3s ease-in-out; }
 .grow:hover  { transform: scale(1.1); }
 .grow:active { transform: scale(1.0); }
+
+.opaque { opacity: 0.5; }
+
+.fill-input {
+  transition: all .2s ease-in-out;
+}
+
+#login:hover {
+  padding-left: 40px;
+}
+
 
 .logo{
   width: 70px;
@@ -12,7 +23,7 @@ textarea { margin-bottom: 10px; }
 }
 
 .home-reset-link {
-
+  color: black;
 }
 
 .github-link {
