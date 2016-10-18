@@ -77,27 +77,6 @@ textarea { margin-bottom: 10px; }
     -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 36s linear infinite 0s;
 }
-.BG-slideshow li div {
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
-}
-.BG-slideshow li div h3 {
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
-    padding: 0;
-    line-height: 200px;
-}
 .BG-slideshow li:nth-child(1) span {
     background-image: url(bgImg02.jpg)
 }
@@ -176,6 +155,7 @@ textarea { margin-bottom: 10px; }
     -ms-animation-delay: 30s;
     animation-delay: 30s;
 }
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation {
     0% { opacity: 0;
@@ -220,42 +200,6 @@ textarea { margin-bottom: 10px; }
          animation-timing-function: ease-out; }
     17% { opacity: 1 }
     25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-/* Animation for the title */
-@-webkit-keyframes titleAnimation {
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-moz-keyframes titleAnimation {
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-o-keyframes titleAnimation {
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-ms-keyframes titleAnimation {
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes titleAnimation {
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
     100% { opacity: 0 }
 }
 
