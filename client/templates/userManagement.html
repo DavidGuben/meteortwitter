@@ -6,7 +6,6 @@
         <!-- Message for logged in user -->
         <p>Hello <strong>@{{currentUser.username}}</strong>, welcome to a twitterClone</p>
         <button type="button" class="btn btn-info fullbutton" id="logout">Log out</button>
-
         <table class="table">
           <tr>
             <td class="tableHeader">Tweets</td>
@@ -26,23 +25,27 @@
           <h4>Login</h4>
         </div>
         <div class="form-group">
-          <input class="form-control input-sm" id="login-username" placeholder="Username">
-          <input class="form-control input-sm" id="login-password" placeholder="Password" type="password">
+          <input class="form-control" id="login-username" placeholder="Username">
+          <div class="input-group">
+            <input class="form-control" id="login-password" placeholder="Password" type="password">
+              <span class="input-group-btn">
+                <button class="btn btn-primary button grow" type="button" id="login">Log in</button>
+              </span>
+          </div><!-- /input-group -->
         </div>
-
-        <button type="button" class="btn btn-primary grow button" id="login">Log in</button>
-
 
         <!-- Sign up module -->
         <h4>Create Account</h4>
         <div class="form-group">
-          <input class="form-control input-sm" id="signup-username" placeholder="Username">
-          <input class="form-control input-sm" id="signup-password" placeholder="Password" type="password">
+          <input class="form-control" id="signup-username" placeholder="Username">
+          <div class="input-group">
+            <input class="form-control" id="signup-password" placeholder="Password" type="password">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-primary grow button" id="signup">Sign up</button>
+              </span>
+          </div>
         </div>
-
-        <button type="button" class="btn btn-primary grow button" id="signup">Sign up</button>
         {{/if}}
-
       </div>
     </div>
   </div>
