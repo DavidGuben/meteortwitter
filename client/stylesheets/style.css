@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 body     { background-color:#fe7055; font-family: 'Raleway'; background-repeat: no-repeat; width:100%; }
+=======
+body     { background-color:#fe7055; font-family: 'Raleway'; background-image: url("/bgImg02.jpeg"); background-repeat: no-repeat; width:100%;}
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
 input    { margin-bottom: 10px; }
 textarea { margin-bottom: 10px; }
 
@@ -12,6 +16,7 @@ textarea { margin-bottom: 10px; }
   transition: all .2s ease-in-out;
 }
 
+<<<<<<< HEAD
 .effect2
 {
   position: relative;
@@ -37,6 +42,8 @@ textarea { margin-bottom: 10px; }
   transform: rotate(-3deg);
 }
 
+=======
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
 #login:hover {
   padding-left: 40px;
 }
@@ -69,6 +76,7 @@ textarea { margin-bottom: 10px; }
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .fix-panel {
   margin-top: 120px;
 }
@@ -78,6 +86,8 @@ textarea { margin-bottom: 10px; }
   color: white;
 }
 
+=======
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
 /* BG Slideshow */
 .BG-slideshow,
 .BG-slideshow:after {
@@ -113,6 +123,85 @@ textarea { margin-bottom: 10px; }
 }
 .BG-slideshow li:nth-child(1) span {
     background-image: url(bgImg02.jpg)
+<<<<<<< HEAD
+=======
+}
+.BG-slideshow li:nth-child(2) span {
+    background-image: url(bgImg03.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.BG-slideshow li:nth-child(3) span {
+    background-image: url(bgImg04.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.BG-slideshow li:nth-child(4) span {
+    background-image: url(bgImg05.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.BG-slideshow li:nth-child(5) span {
+    background-image: url(bgImg06.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.BG-slideshow li:nth-child(6) span {
+    background-image: url(bgImg07.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+.BG-slideshow li:nth-child(2) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.BG-slideshow li:nth-child(3) div {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+.BG-slideshow li:nth-child(4) div {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.BG-slideshow li:nth-child(5) div {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.BG-slideshow li:nth-child(6) div {
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
 
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation {

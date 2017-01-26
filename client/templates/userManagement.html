@@ -1,10 +1,19 @@
 <template name="userManagement">
+<<<<<<< HEAD
   <div class="user-container effect2">
     <div class="panel fix-panel">
       <div class="panel-body">
         {{# if currentUser}}
         <!-- Message for logged in user -->
         <p>Hello <strong>@{{currentUser.username}}</strong>, welcome to a twitterClone</p>
+=======
+  <div class="user-container">
+    <div class="panel">
+      <div class="panel-body">
+        {{# if currentUser}}
+        <!-- Message for logged in user -->
+        <p>Hello @{{currentUser.username}}</p>
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
         <button type="button" class="btn btn-info fullbutton" id="logout">Log out</button>
         <table class="table">
           <tr>
@@ -29,7 +38,11 @@
           <div class="input-group">
             <input class="form-control" id="login-password" placeholder="Password" type="password">
               <span class="input-group-btn">
+<<<<<<< HEAD
                 <span class="glyphicon glyphicon-ok check" aria-hidden="true"></span><button class="btn btn-primary button fill-input" type="button" id="login">Log in</button>
+=======
+                <button class="btn btn-primary button fill-input" type="button" id="login">Log in</button>
+>>>>>>> b02e22d47c6cce6d194d1876e6ef25f32daa1b1f
               </span>
           </div><!-- /input-group -->
         </div>
