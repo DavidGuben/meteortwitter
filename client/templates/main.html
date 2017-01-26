@@ -1,0 +1,47 @@
+<head>
+  <title>twitterClone</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="BG-slideshow">
+      <li><span>bgImg01</span></li>
+      <li><span>bgImg02</span></li>
+      <li><span>bgImg03</span></li>
+      <li><span>bgImg04</span></li>
+      <li><span>bgImg05</span></li>
+      <li><span>bgImg06</span></li>
+  </ul>
+  <div class="fluid-container">
+  <nav class="navbar navbar-default nav">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4 Center Padding" style="text-align:center;">
+        <a class="home-reset-link Padding" href="#">Home</a>
+        <img width="70px" height="50px" src="twitterLogo.png" alt="Brand" class="grow" />
+        <a class="github-link Padding" href="https://github.com/DavidGuben/TwitterCloneMeteor/tree/develop" target="_blank" >Github</a>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+</nav>
+</div>
+<div class="fluid-container">
+  <div class="row">
+    <div class="col-md-5 col-xs-5 Center">
+      {{> userManagement}}
+      {{#if currentUser}}
+      {{> profilePic}}
+      {{> followUsers}}
+      {{/if}}
+    </div>
+    <div class="col-md-7 col-xs-7">
+      {{#if currentUser}}
+      {{> tweetBox}}
+      {{> tweetFeed}}
+      {{/if}}
+    </div>
+  </div>
+</div>
+</body>
